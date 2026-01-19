@@ -70,7 +70,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router basename="/mostafa-soliman">
+        <Router>
           <NavigationTracker />
           <AuthenticatedApp />
         </Router>

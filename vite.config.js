@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/mostafa-soliman/',
+  base: "/mostafa-soliman/",
   logLevel: 'error', // Suppress warnings, only show errors
   plugins: [
     base44({
