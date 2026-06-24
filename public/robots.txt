@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://engmostafasoliman.github.io/Portfolio/sitemap.xml
