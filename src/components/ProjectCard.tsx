@@ -2,7 +2,7 @@
 // One project card: image, title, description, tech tags, and live-link buttons
 // (App Store / Play Store / website / code) — or a "No public link" pill when the
 // project has no links.
-import { ArrowUpRight, Github, Globe, Smartphone, type LucideIcon } from 'lucide-react'
+import { ArrowUpRight, FileText, Github, Globe, Smartphone, type LucideIcon } from 'lucide-react'
 import { type Project } from '@/data/projects'
 import { resolveImage } from '@/lib/utils'
 import { Badge } from './ui/Badge'
@@ -18,6 +18,7 @@ function getLinks(project: Project): LinkEntry[] {
   if (l?.playStore) out.push({ label: 'Play Store', href: l.playStore, icon: Smartphone })
   if (l?.website) out.push({ label: 'Visit site', href: l.website, icon: Globe })
   if (l?.github) out.push({ label: 'Code', href: l.github, icon: Github })
+  if (l?.caseStudy) out.push({ label: 'Case study', href: l.caseStudy, icon: FileText })
   return out
 }
 
