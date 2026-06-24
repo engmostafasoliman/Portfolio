@@ -20,7 +20,10 @@
       "Bash(powershell.exe -Command \"Get-ChildItem -Path ''C:\\\\Users\\\\Administrator'' -Include ''*.png'',''*.jpg'',''*.jpeg'' -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -gt \\(Get-Date\\).AddDays\\(-7\\) } | Sort-Object LastWriteTime -Descending | Select-Object FullName, LastWriteTime, Length\")",
       "Bash(npm install @emailjs/browser)",
       "Bash(npm i:*)",
-      "Bash(npx update-browserslist-db@latest)"
+      "Bash(npx update-browserslist-db@latest)",
+      "Bash(npx kill-port *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)"
     ]
   }
 }
