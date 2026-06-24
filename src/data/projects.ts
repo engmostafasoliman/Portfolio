@@ -7,6 +7,8 @@ export type ProjectLink = {
   playStore?: string
   website?: string
   github?: string
+  /** Google Drive case-study / demo PDF for client projects with no store link. */
+  caseStudy?: string
 }
 
 export type Project = {
@@ -60,6 +62,9 @@ export const projects: Project[] = [
     description:
       'Flutter app matching workout data to nutrition recommendations, integrated with a Node.js/MongoDB backend over real-time sync. Client project (Esmos Tech).',
     tech: ['Flutter', 'Cubit', 'Dio', 'MVVM (Node.js/MongoDB backend)'],
+    links: {
+      caseStudy: 'https://drive.google.com/file/d/1GH3Hf8CCFoOUW2VhKk7-b-0oAOt4WXEr/view?usp=sharing',
+    },
     image:
       'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6968a73708cd577f8038bda8/08c7a77a3_Screenshot2026-01-16at123029PM.png',
   },
@@ -69,6 +74,9 @@ export const projects: Project[] = [
     description:
       'Mobile app for full remote control of a greenhouse: adjust and automate growing conditions in real time over Socket.IO with low-latency control. University graduation project (2023).',
     tech: ['Flutter', 'Bloc', 'Socket.IO', 'MVVM'],
+    links: {
+      caseStudy: 'https://drive.google.com/file/d/1Z97AaYgC5hwAyPkYjgzIahvFfXNLPTEs/view?usp=sharing',
+    },
     image:
       'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6968a73708cd577f8038bda8/4aabe7a06_WhiteGreenMobileMockupPhotoCollageBeautyPinterestPin1.png',
   },
