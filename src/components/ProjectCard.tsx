@@ -18,7 +18,7 @@ function getLinks(project: Project): LinkEntry[] {
   if (l?.playStore) out.push({ label: 'Play Store', href: l.playStore, icon: Smartphone })
   if (l?.website) out.push({ label: 'Visit site', href: l.website, icon: Globe })
   if (l?.github) out.push({ label: 'Code', href: l.github, icon: Github })
-  if (l?.caseStudy) out.push({ label: 'Case study', href: l.caseStudy, icon: FileText })
+  if (l?.caseStudy) out.push({ label: 'Client Project', href: l.caseStudy, icon: FileText })
   return out
 }
 
