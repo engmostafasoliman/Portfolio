@@ -1,24 +1,96 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/logo.png" />
-  <link rel="apple-touch-icon" href="/logo.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
-  <link rel="apple-touch-icon" sizes="167x167" href="/logo.png" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Mostafa Soliman" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="manifest" href="/manifest.json" />
-  <title>Mostafa Soliman Portfolio</title>
-</head>
+    <title>Mostafa Elsayed — Flutter Developer</title>
+    <meta
+      name="description"
+      content="Flutter developer with 3+ years shipping production apps — five live on the App Store & Play Store. Based in Abu Dhabi, open to EU relocation."
+    />
+    <meta name="author" content="Mostafa Elsayed" />
+    <link rel="canonical" href="https://engmostafasoliman.github.io/Portfolio/" />
+    <meta name="robots" content="index, follow" />
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#020617" />
 
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mostafa Elsayed — Flutter Developer" />
+    <meta
+      property="og:description"
+      content="Flutter developer with 3+ years shipping production apps — five live on the App Store & Play Store. Based in Abu Dhabi, open to EU relocation."
+    />
+    <meta property="og:url" content="https://engmostafasoliman.github.io/Portfolio/" />
+    <meta property="og:image" content="https://engmostafasoliman.github.io/Portfolio/logo.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mostafa Elsayed — Flutter Developer" />
+    <meta
+      name="twitter:description"
+      content="Flutter developer with 3+ years shipping production apps. Based in Abu Dhabi, open to EU relocation."
+    />
+    <meta name="twitter:image" content="https://engmostafasoliman.github.io/Portfolio/logo.png" />
+
+    <!-- Icons & manifest -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="apple-mobile-web-app-title" content="Mostafa Elsayed" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Set theme before paint to avoid a flash of the wrong color scheme -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var dark = stored
+            ? stored === 'dark'
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+          if (dark) document.documentElement.classList.add('dark')
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+        } catch (e) {}
+      })()
+    </script>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mostafa Elsayed",
+        "jobTitle": "Flutter Developer",
+        "url": "https://engmostafasoliman.github.io/Portfolio/",
+        "image": "https://engmostafasoliman.github.io/Portfolio/logo.png",
+        "email": "mailto:devmostafasoliman@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Abu Dhabi",
+          "addressCountry": "AE"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/mostafa-elsayed-690148195/",
+          "https://github.com/engmostafasoliman"
+        ],
+        "knowsAbout": [
+          "Flutter",
+          "Dart",
+          "Clean Architecture",
+          "Bloc",
+          "Cubit",
+          "WebSocket",
+          "OCPP",
+          "Next.js"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
