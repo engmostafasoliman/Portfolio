@@ -1,3 +1,7 @@
+// ── ProjectCard ──────────────────────────────────────────────────────────────
+// One project card: image, title, description, tech tags, and live-link buttons
+// (App Store / Play Store / website / code) — or a "No public link" pill when the
+// project has no links.
 import { ArrowUpRight, Github, Globe, Smartphone, type LucideIcon } from 'lucide-react'
 import { type Project } from '@/data/projects'
 import { resolveImage } from '@/lib/utils'
@@ -6,6 +10,7 @@ import { Card } from './ui/Card'
 
 type LinkEntry = { label: string; href: string; icon: LucideIcon }
 
+// Collect only the links that exist into a list the card can render as buttons.
 function getLinks(project: Project): LinkEntry[] {
   const out: LinkEntry[] = []
   const l = project.links

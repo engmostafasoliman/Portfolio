@@ -1,3 +1,6 @@
+// ── Reveal ───────────────────────────────────────────────────────────────────
+// Fade/slide-in-on-scroll wrapper used throughout the page. Respects
+// prefers-reduced-motion by collapsing to a plain fade (no vertical movement).
 import { motion, useReducedMotion, type Variants } from 'framer-motion'
 import { type ReactNode } from 'react'
 

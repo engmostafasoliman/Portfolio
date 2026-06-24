@@ -1,3 +1,6 @@
+// ── Experience ───────────────────────────────────────────────────────────────
+// Vertical timeline (a left border + dotted markers) built from
+// data/experience.ts.
 import { Briefcase, MapPin } from 'lucide-react'
 import { Section } from './Section'
 import { Reveal } from './Reveal'

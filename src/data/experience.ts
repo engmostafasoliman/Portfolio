@@ -1,3 +1,5 @@
+// ── Experience data (single source of truth) ────────────────────────────────
+// Work history, newest first; rendered as a vertical timeline.
 export type Experience = {
   role: string
   company: string

@@ -1,3 +1,7 @@
+// ── Shared helpers ───────────────────────────────────────────────────────────
+// cn()           – merge Tailwind class names, resolving conflicts.
+// asset()        – prefix a public/ path with the GitHub Pages base (/Portfolio/).
+// resolveImage() – pass full URLs straight through; resolve local paths via asset().
 import { clsx, type ClassValue } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 

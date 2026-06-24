@@ -1,3 +1,5 @@
+// ── Badge ────────────────────────────────────────────────────────────────────
+// Small indigo pill used for tech-stack tags and skill items.
 import { type ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 

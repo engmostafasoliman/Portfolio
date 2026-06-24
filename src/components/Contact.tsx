@@ -1,3 +1,6 @@
+// ── Contact ──────────────────────────────────────────────────────────────────
+// Email-first contact panel with LinkedIn and GitHub buttons (no form — links
+// come from data/profile.ts).
 import { Github, Linkedin, Mail } from 'lucide-react'
 import { Section } from './Section'
 import { Reveal } from './Reveal'

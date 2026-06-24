@@ -1,3 +1,7 @@
+// ── Navbar ───────────────────────────────────────────────────────────────────
+// Sticky header. Becomes opaque/blurred after a little scroll, shows inline links
+// on desktop and a hamburger (→ <MobileMenu>) on small screens, and hosts the
+// theme toggle. Each link jumps to a section id defined in `links` below.
 import { useEffect, useState } from 'react'
 import { Menu } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -18,6 +22,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
+  // Track scroll position so the header can switch to its solid/blurred style.
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
     onScroll()

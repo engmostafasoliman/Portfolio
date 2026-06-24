@@ -1,3 +1,5 @@
+// ── Skills ───────────────────────────────────────────────────────────────────
+// One card per skill category (data/skills.ts), each listing its items as Badges.
 import { Section } from './Section'
 import { Reveal } from './Reveal'
 import { Badge } from './ui/Badge'

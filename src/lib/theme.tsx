@@ -1,3 +1,8 @@
+// ── Theme provider ───────────────────────────────────────────────────────────
+// Class-based light/dark mode. The chosen theme is stored in localStorage and
+// applied by toggling the `dark` class on <html>. index.html runs a tiny inline
+// script BEFORE paint to set that class, so there is no flash of the wrong theme
+// on first load; getInitialTheme() reads it back so React stays in sync.
 import {
   createContext,
   useContext,

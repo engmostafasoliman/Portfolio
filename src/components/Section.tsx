@@ -1,3 +1,7 @@
+// ── Section ──────────────────────────────────────────────────────────────────
+// Shared section shell: consistent vertical padding and max width, plus an
+// animated heading block (eyebrow + title + optional subtitle). Children render
+// directly below the heading. Used by About/Projects/WebWork/Skills/Contact.
 import { type ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 import { Reveal } from './Reveal'

@@ -1,3 +1,6 @@
+// ── Site profile (single source of truth) ───────────────────────────────────
+// Edit this file to change the name, tagline, about text, contact links, and CV
+// path. Components read from `profile` — these values are never hard-coded in JSX.
 export type Profile = {
   name: string
   role: string

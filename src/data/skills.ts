@@ -1,3 +1,5 @@
+// ── Skills data (single source of truth) ────────────────────────────────────
+// Grouped skill chips; the Skills section renders one card per group.
 export type SkillGroup = {
   category: string
   items: string[]

@@ -1,3 +1,5 @@
+// ── About ────────────────────────────────────────────────────────────────────
+// Short bio paragraph (from profile.about) plus a compact "quick facts" grid.
 import { Section } from './Section'
 import { Reveal } from './Reveal'
 import { profile } from '@/data/profile'

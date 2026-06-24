@@ -1,3 +1,6 @@
+// ── Projects ─────────────────────────────────────────────────────────────────
+// Responsive card grid built from data/projects.ts — one <ProjectCard> per app,
+// each staggered in via <Reveal>.
 import { Section } from './Section'
 import { Reveal } from './Reveal'
 import { ProjectCard } from './ProjectCard'

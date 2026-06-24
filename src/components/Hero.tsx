@@ -1,3 +1,7 @@
+// ── Hero ─────────────────────────────────────────────────────────────────────
+// Above-the-fold intro: availability badge, name, role, tagline, the three CTAs
+// (View Projects / Download CV / Contact), location, and the portrait. The
+// animated backdrop now lives in <CanvasBackground>, not here.
 import { motion, useReducedMotion } from 'framer-motion'
 import { ArrowRight, Download, Mail, MapPin } from 'lucide-react'
 import { profile } from '@/data/profile'

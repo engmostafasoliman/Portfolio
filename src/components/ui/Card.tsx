@@ -1,3 +1,5 @@
+// ── Card ─────────────────────────────────────────────────────────────────────
+// Rounded surface with a subtle hover lift; wraps project / web / skill content.
 import { type ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 

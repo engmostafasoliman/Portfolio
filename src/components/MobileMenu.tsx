@@ -1,3 +1,8 @@
+// ── MobileMenu ───────────────────────────────────────────────────────────────
+// Accessible slide-in nav for small screens. While open it moves initial focus
+// into the panel, closes on Escape / backdrop click / link tap, locks body
+// scroll, and closes itself (releasing the lock) if the viewport grows to
+// desktop width — where the menu is hidden by CSS and would otherwise stay open.
 import { useEffect, useRef } from 'react'
 import { X } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'

@@ -1,3 +1,5 @@
+// ── ThemeToggle ──────────────────────────────────────────────────────────────
+// Sun/moon button that flips light ↔ dark via the theme context.
 import { Moon, Sun } from 'lucide-react'
 import { useTheme } from '@/lib/theme'
 

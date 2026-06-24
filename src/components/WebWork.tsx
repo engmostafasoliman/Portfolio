@@ -1,3 +1,6 @@
+// ── WebWork ──────────────────────────────────────────────────────────────────
+// Lighter cards for the production websites (data/webWork.ts). Cards without a
+// local screenshot fall back to a gradient + globe placeholder.
 import { ArrowUpRight, Globe } from 'lucide-react'
 import { Section } from './Section'
 import { Reveal } from './Reveal'

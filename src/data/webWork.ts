@@ -1,3 +1,5 @@
+// ── Web work data (single source of truth) ──────────────────────────────────
+// Production websites, shown in a separate (lighter) section from the apps.
 export type WebProject = {
   id: string
   /** Display domain, e.g. 'futuregulf.ae'. */

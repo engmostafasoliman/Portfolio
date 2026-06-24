@@ -1,3 +1,11 @@
+// ── CanvasBackground ─────────────────────────────────────────────────────────
+// Animated indigo "particle network" painted on a full-viewport <canvas> fixed
+// behind all content. Deliberately subtle. Key behaviors:
+//   • theme-aware    – colors are read from a ref each frame and recolored on toggle
+//   • reduced-motion – draws a single static frame instead of animating
+//   • efficient      – particle count scales to viewport (capped at 70), device
+//                      pixel ratio capped at 2, and rendering pauses while the
+//                      browser tab is hidden
 import { useEffect, useRef } from 'react'
 import { useTheme } from '@/lib/theme'
 

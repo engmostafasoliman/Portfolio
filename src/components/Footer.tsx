@@ -1,3 +1,5 @@
+// ── Footer ───────────────────────────────────────────────────────────────────
+// Social/email icon links (LinkedIn, GitHub, email) + copyright line.
 import { Github, Linkedin, Mail, type LucideIcon } from 'lucide-react'
 import { profile } from '@/data/profile'
 

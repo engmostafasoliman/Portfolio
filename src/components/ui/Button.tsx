@@ -1,3 +1,6 @@
+// ── Button ───────────────────────────────────────────────────────────────────
+// An anchor styled as a button — every CTA on this site is a link (in-page
+// anchor, mailto, or download). variant: 'primary' (filled) | 'secondary' (outline).
 import { type AnchorHTMLAttributes, type ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 

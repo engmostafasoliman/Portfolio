@@ -1,3 +1,7 @@
+// ── Projects data (single source of truth) ──────────────────────────────────
+// The 6 Flutter apps in display order; the Projects section maps over this array.
+// A project with no `links` renders a graceful "No public link" state.
+// `image` may be a full URL or a path relative to public/ (resolved at render).
 export type ProjectLink = {
   appStore?: string
   playStore?: string
