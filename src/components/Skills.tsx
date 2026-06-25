@@ -12,7 +12,7 @@ export default function Skills() {
         {skills.map((group, i) => (
           <Reveal key={group.category} delay={Math.min(i * 0.05, 0.25)} className="h-full">
             <div className="h-full rounded-2xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900/50">
-              <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+              <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
                 {group.category}
               </h3>
               <div className="flex flex-wrap gap-1.5">

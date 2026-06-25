@@ -21,7 +21,7 @@ export function Section({ id, eyebrow, title, subtitle, children, className }: S
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
         <Reveal className="mb-12 max-w-2xl">
           {eyebrow && (
-            <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">
+            <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-blue-600 dark:text-blue-400">
               {eyebrow}
             </p>
           )}

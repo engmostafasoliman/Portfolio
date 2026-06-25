@@ -19,7 +19,7 @@
 
   /* Visible keyboard focus everywhere */
   :focus-visible {
-    @apply outline-none ring-2 ring-indigo-500 ring-offset-2 ring-offset-white dark:ring-offset-slate-950;
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-slate-950;
   }
 }
 
@@ -47,17 +47,17 @@
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  @apply rounded-full bg-indigo-500/40;
+  @apply rounded-full bg-blue-500/40;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-indigo-500/70;
+  @apply bg-blue-500/70;
 }
 
 ::selection {
-  @apply bg-indigo-500/25;
+  @apply bg-blue-500/25;
 }
 
 /* ── Utilities ── */
 .text-gradient {
-  @apply bg-gradient-to-r from-indigo-500 via-violet-500 to-indigo-400 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-blue-500 via-sky-500 to-cyan-400 bg-clip-text text-transparent;
 }

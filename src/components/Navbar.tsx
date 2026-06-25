@@ -47,7 +47,7 @@ export default function Navbar() {
           href="#main"
           className="flex items-center gap-2 font-bold text-slate-900 dark:text-white"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 font-mono text-sm font-bold text-white">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-sky-600 font-mono text-sm font-bold text-white">
             ME
           </span>
           <span>{profile.name}</span>

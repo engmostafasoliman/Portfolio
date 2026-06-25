@@ -33,8 +33,8 @@ export default function WebWork() {
                     />
                   </div>
                 ) : (
-                  <div className="flex aspect-[16/9] items-center justify-center bg-gradient-to-br from-indigo-500/10 to-violet-500/10">
-                    <Globe className="h-10 w-10 text-indigo-400/60" />
+                  <div className="flex aspect-[16/9] items-center justify-center bg-gradient-to-br from-blue-500/10 to-sky-500/10">
+                    <Globe className="h-10 w-10 text-blue-400/60" />
                   </div>
                 )}
                 <div className="flex flex-1 flex-col p-6">
@@ -42,7 +42,7 @@ export default function WebWork() {
                     href={site.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 text-lg font-semibold text-slate-900 hover:text-indigo-600 dark:text-white dark:hover:text-indigo-400"
+                    className="inline-flex items-center gap-1.5 text-lg font-semibold text-slate-900 hover:text-blue-600 dark:text-white dark:hover:text-blue-400"
                   >
                     {site.name}
                     <ArrowUpRight className="h-4 w-4 opacity-60" />

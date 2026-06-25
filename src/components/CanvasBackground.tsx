@@ -1,5 +1,5 @@
 // ── CanvasBackground ─────────────────────────────────────────────────────────
-// Animated indigo "particle network" painted on a full-viewport <canvas> fixed
+// Animated blue "particle network" painted on a full-viewport <canvas> fixed
 // behind all content. Deliberately subtle. Key behaviors:
 //   • theme-aware    – colors are read from a ref each frame and recolored on toggle
 //   • reduced-motion – draws a single static frame instead of animating
@@ -28,8 +28,8 @@ export function CanvasBackground() {
   useEffect(() => {
     colorRef.current =
       theme === 'dark'
-        ? { dot: '129,140,248', line: '129,140,248' } // indigo-400
-        : { dot: '79,70,229', line: '99,102,241' } // indigo-600 / indigo-500
+        ? { dot: '96,165,250', line: '96,165,250' } // blue-400
+        : { dot: '37,99,235', line: '59,130,246' } // blue-600 / blue-500
     // Repaint immediately so the toggle recolors even in reduced-motion mode
     // (where no animation loop is running to pick up the new colors).
     redrawRef.current?.()

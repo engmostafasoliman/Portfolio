@@ -11,9 +11,9 @@ const base =
 
 const variants: Record<Variant, string> = {
   primary:
-    'bg-indigo-600 text-white shadow-sm hover:-translate-y-0.5 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30',
+    'bg-blue-600 text-white shadow-sm hover:-translate-y-0.5 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/30',
   secondary:
-    'border border-slate-300 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-indigo-400 hover:text-indigo-600 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-200 dark:hover:border-indigo-500/60 dark:hover:text-white',
+    'border border-slate-300 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-blue-400 hover:text-blue-600 dark:border-slate-700 dark:bg-slate-900/50 dark:text-slate-200 dark:hover:border-blue-500/60 dark:hover:text-white',
 }
 
 type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
