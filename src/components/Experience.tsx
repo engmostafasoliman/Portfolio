@@ -15,13 +15,13 @@ export default function Experience() {
             <div className="relative">
               <span
                 aria-hidden="true"
-                className="absolute -left-[2.75rem] flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-indigo-600 text-white dark:border-slate-950"
+                className="absolute -left-[2.75rem] flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-blue-600 text-white dark:border-slate-950"
               >
                 <Briefcase className="h-3 w-3" />
               </span>
               <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{job.role}</h3>
-                <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">
+                <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
                   {job.period}
                 </span>
               </div>
@@ -33,6 +33,22 @@ export default function Experience() {
                 <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 dark:text-slate-400">
                   {job.description}
                 </p>
+              )}
+              {job.bullets && job.bullets.length > 0 && (
+                <ul className="mt-3 max-w-2xl space-y-2">
+                  {job.bullets.map((bullet, b) => (
+                    <li
+                      key={b}
+                      className="relative pl-5 text-sm leading-relaxed text-slate-600 dark:text-slate-400"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="absolute left-0 top-2 h-1.5 w-1.5 rounded-full bg-blue-500/70"
+                      />
+                      {bullet}
+                    </li>
+                  ))}
+                </ul>
               )}
             </div>
           </Reveal>

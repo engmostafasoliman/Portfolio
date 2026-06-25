@@ -29,12 +29,14 @@ export const webWork: WebProject[] = [
     name: 'dyfmotors.ae',
     url: 'https://dyfmotors.ae/',
     tags: ['Next.js 15', 'SEO'],
+    image: 'images/dyf.png',
   },
   {
     id: 'commercialoxford',
     name: 'commercialoxforduae.ae',
     url: 'https://commercialoxforduae.ae/',
     tags: ['Next.js 15', 'SEO'],
+    image: 'images/oxford.png',
   },
   {
     id: 'westernbeach',

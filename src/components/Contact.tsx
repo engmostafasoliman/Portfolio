@@ -21,7 +21,7 @@ export default function Contact() {
             <p className="text-sm text-slate-500 dark:text-slate-400">Email me at</p>
             <a
               href={`mailto:${profile.email}`}
-              className="text-lg font-semibold text-slate-900 hover:text-indigo-600 dark:text-white dark:hover:text-indigo-400"
+              className="text-lg font-semibold text-slate-900 hover:text-blue-600 dark:text-white dark:hover:text-blue-400"
             >
               {profile.email}
             </a>
