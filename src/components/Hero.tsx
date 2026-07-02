@@ -93,7 +93,7 @@ export default function Hero() {
               className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-blue-500/30 to-sky-500/30 blur-xl"
             />
             <img
-              src={profile.photo}
+              src={asset(profile.photo)}
               alt={`Portrait of ${profile.name}`}
               width={320}
               height={384}

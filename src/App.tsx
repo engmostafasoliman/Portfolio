@@ -4,6 +4,7 @@
 // Everything is wrapped in <ThemeProvider> so the light/dark toggle drives the
 // whole tree, and <CanvasBackground> sits behind it all.
 import { ThemeProvider } from '@/lib/theme'
+import { SplashScreen } from '@/components/SplashScreen'
 import { CanvasBackground } from '@/components/CanvasBackground'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
@@ -18,6 +19,9 @@ import Footer from '@/components/Footer'
 export default function App() {
   return (
     <ThemeProvider>
+      {/* Brief intro overlay on load; fades out to reveal the page */}
+      <SplashScreen />
+
       {/* Animated particle backdrop, fixed behind everything */}
       <CanvasBackground />
 
