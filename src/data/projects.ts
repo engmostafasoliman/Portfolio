@@ -36,6 +36,18 @@ export const projects: Project[] = [
     image: 'images/ev-charger-BG.png',
   },
   {
+
+    id: 'gitmind',
+    title: 'GitMind',
+    description:
+      'Open-source Flutter app for exploring your GitHub repositories through AI: sign in with GitHub, get one-tap Gemini summaries of any repo (what it does, tech stack, strengths, weaknesses), and chat with a repo-aware assistant. Built with Clean Architecture and Cubit, with a local SQLite cache, rate-limit handling, and 80 unit tests.',
+    tech: ['Flutter', 'Cubit', 'Gemini AI', 'Firebase Auth', 'Clean Architecture', 'SQLite'],
+    links: {
+      github: 'https://github.com/engmostafasoliman/GitMind',
+    },
+    image: 'images/GitMind-Poster.png',
+  },
+  {
     id: 'whiteboard',
     title: 'WhiteBoard',
     description:

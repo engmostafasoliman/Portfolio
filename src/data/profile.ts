@@ -24,12 +24,11 @@ export const profile: Profile = {
   tagline:
     'Flutter developer with 3+ years shipping production apps — five live on the App Store & Play Store, including the user-facing app for an EV charging network launching across Abu Dhabi.',
   location: 'Abu Dhabi, UAE',
-  relocation: 'Open to EU relocation',
+  relocation: 'Open to relocation',
   email: 'devmostafasoliman@gmail.com',
   about:
     "I'm a Flutter developer based in Abu Dhabi with 3+ years building and shipping production apps. I work with Clean Architecture and Bloc/Cubit, handle real-time features over WebSocket and OCPP, and cover the critical paths with bloc_test and Mockito. Claude Code and Cursor are part of my daily workflow. Right now I'm learning Node.js to move toward a fullstack mobile profile.",
-  photo:
-    'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6968a73708cd577f8038bda8/b07be15c0_1764270459438.jpeg',
+  photo: 'me-pic.jpg',
   cv: 'cv.pdf',
   links: {
     linkedin: 'https://www.linkedin.com/in/mostafa-elsayed-690148195/',
