@@ -95,8 +95,9 @@ export const projects: Project[] = [
   {
     id: 'quarak-qr',
     title: 'Quarak QR Code',
-    description: 'Full redesign and rebuild — from an outdated MVP to a polished production app.',
-    tech: ['Flutter', 'Figma', 'Claude Code'],
+    description:
+      'Personal project. Rebuilt from scratch to replace an outdated Play Store listing with a cleaner, modern version — QR scanning and generation in a redesigned UI. Built with Figma Make alongside Claude Code.',
+    tech: ['Flutter', 'Figma Make', 'Claude Code'],
     links: {
       playStore: 'https://play.google.com/store/apps/details?id=com.qrapp.qrapp',
     },

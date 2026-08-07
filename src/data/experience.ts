@@ -21,9 +21,7 @@ export const experience: Experience[] = [
     bullets: [
       'Built the Easy Touch EV charging app (user platform), live on the App Store and Play Store — drivers find chargers on Google Maps, run live charging sessions over WebSocket/OCPP, and pay in-app. The network is in its launch phase, with the first 10 chargers going live. Unit-tested the Cubit state transitions and OCPP handlers with bloc_test and Mockito.',
       "Built a branded whiteboard app for the company's interactive screen product — freehand drawing with CustomPainter and the Canvas API at 60 FPS, Riverpod for state, and Hive to persist vector paths for near-instant save/load. Integrated with an AI backend that recognizes a sketch and returns the closest clean or geometric shape.",
-      'Rebuilt the Quarak QR app from scratch, replacing an outdated Play Store listing with a cleaner, modern version (used Figma Make alongside Claude Code during the build).',
-      'Built and deployed four production websites for the company with Next.js 15 — futuregulf.ae (bilingual AR/EN with full RTL), plus dyfmotors.ae, commercialoxforduae.ae, and westernbeach.ae — handled SEO and Google Search Console setup, and deployed to a UAE server via cPanel.',
-      "Set up the company's social media operation from scratch: content pipeline, tooling requirements, and delivery process.",
+      'Built and deployed five production websites for the group with Next.js 15 — futuregulf.ae (bilingual AR/EN with full RTL), plus easytouchuae.ae, dyfmotors.ae, commercialoxforduae.ae, and westernbeach.ae — handled SEO and Google Search Console setup, and deployed to a UAE server via cPanel.',
     ],
   },
   {

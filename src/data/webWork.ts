@@ -12,10 +12,20 @@ export type WebProject = {
 }
 
 /**
- * Production websites built and deployed for Al Manarah Holding Group with
+ * Production websites built and deployed for Al Manarah Holding Group (and its
+ * group companies) with
  * Next.js 15 — SEO + Google Search Console setup, deployed via cPanel.
  */
 export const webWork: WebProject[] = [
+  {
+    id: 'easytouch',
+    name: 'easytouchuae.ae',
+    url: 'https://easytouchuae.ae/',
+    description:
+      'Corporate site for a smart-technology systems integrator — AV, IT infrastructure, data centres and ELV/security, plus interactive touch screens and EV charging stations.',
+    tags: ['Next.js 15', 'SEO'],
+    image: 'images/easytouch_website.png',
+  },
   {
     id: 'futuregulf',
     name: 'futuregulf.ae',
