@@ -15,7 +15,7 @@ export default function WebWork() {
       id="web"
       eyebrow="Web Work"
       title="Production websites"
-      subtitle="Four production sites for Al Manarah Holding Group, built with Next.js 15 — SEO and Google Search Console setup, deployed via cPanel."
+      subtitle="Five production sites for Al Manarah Holding Group, built with Next.js 15 — SEO and Google Search Console setup, deployed via cPanel."
     >
       <div className="grid gap-6 sm:grid-cols-2">
         {webWork.map((site, i) => {
