@@ -11,7 +11,7 @@ export default function Projects() {
     <Section
       id="projects"
       eyebrow="Projects"
-      title="Flutter apps I've shipped"
+      title="Mobile apps I've shipped"
       subtitle="Production mobile apps built with Clean Architecture, real-time integrations, and tested business logic."
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

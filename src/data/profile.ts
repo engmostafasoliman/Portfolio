@@ -22,7 +22,7 @@ export const profile: Profile = {
   name: 'Mostafa Elsayed',
   role: 'Flutter Developer',
   tagline:
-    'Flutter developer with 3+ years shipping production apps — five live on the App Store & Play Store, including the user-facing app for an EV charging network launching across Abu Dhabi.',
+    'Flutter developer with 3+ years building real-time systems — I built the OCPP-based driver app for an EV charging network launching across Abu Dhabi, one of five apps live on the App Store & Play Store.',
   location: 'Abu Dhabi, UAE',
   relocation: 'Open to relocation',
   email: 'devmostafasoliman@gmail.com',
