@@ -14,7 +14,7 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    role: 'Flutter Engineer (Mid-Level)',
+    role: 'Software Engineer (Mid-Level)',
     company: 'Easy Touch IT Solutions (Al Manarah Holding Group)',
     location: 'Abu Dhabi, UAE',
     period: 'Jan 2025 – Present',
