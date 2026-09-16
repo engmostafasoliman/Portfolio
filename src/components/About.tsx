@@ -5,7 +5,7 @@ import { Reveal } from './Reveal'
 import { profile } from '@/data/profile'
 
 const facts = [
-  { label: 'Role', value: 'Flutter Developer (3+ yrs)' },
+  { label: 'Role', value: 'Mobile Engineer (3+ yrs)' },
   { label: 'Based in', value: 'Abu Dhabi, UAE' },
   { label: 'Open to', value: 'relocation' },
   { label: 'Learning', value: 'Node.js (fullstack mobile)' },
