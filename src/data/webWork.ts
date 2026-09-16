@@ -18,6 +18,15 @@ export type WebProject = {
  */
 export const webWork: WebProject[] = [
   {
+    id: 'diamondsword',
+    name: 'diamondsword.ae',
+    url: 'https://diamondsword.ae/',
+    description:
+      'Bilingual (AR/EN, full RTL) corporate site for a furniture and fit-out contractor — selected projects across healthcare, government, workplace, leisure, education, and hospitality sectors.',
+    tags: ['Next.js 15', 'AR/EN', 'RTL', 'SEO'],
+    image: 'images/diamondsword.jpeg',
+  },
+  {
     id: 'easytouch',
     name: 'easytouchuae.ae',
     url: 'https://easytouchuae.ae/',
