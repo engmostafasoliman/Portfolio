@@ -19,7 +19,7 @@ export const experience: Experience[] = [
     location: 'Abu Dhabi, UAE',
     period: 'Jan 2025 – Present',
     bullets: [
-      'Built the Easy Touch EV charging app (user platform), live on the App Store and Play Store — drivers find chargers on Google Maps, run live charging sessions over WebSocket/OCPP, and pay in-app. The network is in its launch phase, with the first 10 chargers going live. Unit-tested the Cubit state transitions and OCPP handlers with bloc_test and Mockito.',
+      'Built the Easy Touch EV charging app (driver-facing), live on the App Store and Play Store for a network in its launch phase (first 10 chargers). Implements the full OCPP 1.6J charging flow over WebSocket (start/stop, live MeterValues, connector state, Heartbeat), session billing by target energy, target spend, or open wallet balance, and session-state recovery on WebSocket drops. Unit-tested the Cubit state transitions and OCPP handlers with bloc_test and Mockito.',
       "Built a branded whiteboard app for the company's interactive screen product — freehand drawing with CustomPainter and the Canvas API at 60 FPS, Riverpod for state, and Hive to persist vector paths for near-instant save/load. Integrated with an AI backend that recognizes a sketch and returns the closest clean or geometric shape.",
       'Built and deployed six production websites for the group with Next.js 15 — diamondsword.ae and futuregulf.ae (both bilingual AR/EN with full RTL), plus easytouchuae.ae, dyfmotors.ae, commercialoxforduae.ae, and westernbeach.ae — handled SEO and Google Search Console setup, and deployed to a UAE server via cPanel.',
     ],
