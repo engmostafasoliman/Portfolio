@@ -20,7 +20,7 @@ export type Profile = {
 
 export const profile: Profile = {
   name: 'Mostafa Elsayed',
-  role: 'Flutter Developer',
+  role: 'Mobile Engineer — Flutter & Dart',
   tagline:
     'Flutter developer with 3+ years building real-time systems — I built the OCPP-based driver app for an EV charging network launching across Abu Dhabi, one of five apps live on the App Store & Play Store.',
   location: 'Abu Dhabi, UAE',

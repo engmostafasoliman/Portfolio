@@ -27,8 +27,8 @@ export const projects: Project[] = [
     id: 'easy-touch-ev',
     title: 'Easy Touch EV Charger',
     description:
-      'User platform for an EV charging network: drivers find chargers on Google Maps, run live charging sessions over WebSocket/OCPP, and pay in-app. Unit-tested Cubit state transitions and OCPP handlers. Network currently in launch phase (first 10 chargers).',
-    tech: ['Flutter', 'Cubit', 'Dio', 'WebSocket', 'OCPP', 'Maps', 'Mockito', 'bloc_test'],
+      'Driver-facing app for an EV charging network, live on the App Store and Play Store. Implements the full OCPP 1.6J charging flow over WebSocket, session billing by target energy, target spend, or wallet balance, and session-state recovery on connection drops. Unit-tested Cubit state transitions and OCPP handlers with bloc_test and Mockito.',
+    tech: ['Flutter', 'Cubit', 'Dio', 'WebSocket', 'OCPP 1.6J', 'Maps', 'Mockito', 'bloc_test'],
     links: {
       appStore: 'https://apps.apple.com/us/app/easy-touch/id6754902919',
       playStore: 'https://play.google.com/store/apps/details?id=com.easytouch.app',
