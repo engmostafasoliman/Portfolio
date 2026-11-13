@@ -37,7 +37,7 @@ export const projects: Project[] = [
   },
   {
     id: 'tohfiti',
-    title: 'Tohfat Al-Atfal',
+    title: 'Tuhfa Kids',
     description:
       'Offline Tajweed app built on the classical Tuhfat al-Atfal matn, live on Google Play: a lesson → quiz → progress curriculum with audio playback and daily reminders, in a fully RTL Arabic UI. Clean Architecture (domain / data / presentation per feature) with Cubit and get_it, a custom Cubit-driven navigation stack, and a custom test harness.',
     tech: ['Flutter', 'Cubit', 'Clean Architecture', 'get_it', 'Drift / SQLite', 'shared_preferences', 'audioplayers', 'Local Notifications', 'RTL'],
