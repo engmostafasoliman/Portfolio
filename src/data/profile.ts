@@ -8,6 +8,8 @@ export type Profile = {
   location: string
   relocation: string
   email: string
+  /** WhatsApp number in international format, digits only after the + (used for wa.me links). */
+  whatsapp: string
   about: string
   photo: string
   /** Path relative to public/ — resolved through asset() at render time. */
@@ -26,6 +28,7 @@ export const profile: Profile = {
   location: 'Abu Dhabi, UAE',
   relocation: 'Open to relocation',
   email: 'devmostafasoliman@gmail.com',
+  whatsapp: '+971554663783',
   about:
     "I'm a Flutter developer based in Abu Dhabi with 3+ years building and shipping production apps. I work with Clean Architecture and Bloc/Cubit, handle real-time features over WebSocket and OCPP, and cover the critical paths with bloc_test and Mockito. Claude Code and Cursor are part of my daily workflow. Right now I'm learning Node.js to move toward a fullstack mobile profile.",
   photo: 'me-pic.jpg',

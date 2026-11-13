@@ -1,9 +1,9 @@
 // ── Hero ─────────────────────────────────────────────────────────────────────
-// Above-the-fold intro: availability badge, name, role, tagline, the three CTAs
-// (View Projects / Download CV / Contact), location, and the portrait. The
+// Above-the-fold intro: availability badge, name, role, tagline, the four CTAs
+// (View Projects / Download CV / Contact / WhatsApp), location, and the portrait. The
 // animated backdrop now lives in <CanvasBackground>, not here.
 import { motion, useReducedMotion, type Variants } from 'framer-motion'
-import { ArrowRight, Download, Mail, MapPin } from 'lucide-react'
+import { ArrowRight, Download, Mail, MapPin, MessageCircle } from 'lucide-react'
 import { profile } from '@/data/profile'
 import { asset } from '@/lib/utils'
 import { Button } from './ui/Button'
@@ -64,6 +64,15 @@ export default function Hero() {
             </Button>
             <Button href="#contact" variant="secondary">
               <Mail className="h-4 w-4" /> Contact
+            </Button>
+            <Button
+              href={`https://wa.me/${profile.whatsapp.replace(/\D/g, '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="secondary"
+              className="hover:border-emerald-500 hover:text-emerald-700 dark:hover:border-emerald-500/60 dark:hover:text-emerald-300"
+            >
+              <MessageCircle className="h-4 w-4 text-emerald-600 dark:text-emerald-400" /> WhatsApp
             </Button>
           </motion.div>
 
