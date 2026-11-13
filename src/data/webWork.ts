@@ -18,6 +18,15 @@ export type WebProject = {
  */
 export const webWork: WebProject[] = [
   {
+    id: 'almanaraholding',
+    name: 'almanaraholding.ae',
+    url: 'https://almanaraholding.ae/en/',
+    description:
+      'Bilingual (AR/EN, full RTL) corporate site for the parent holding group — 16 subsidiaries across contracting, fit-out, IT, automotive, manufacturing, and services, with company, sector, and project pages.',
+    tags: ['Next.js 15', 'AR/EN', 'RTL', 'SEO'],
+    image: 'images/almanaraholding.jpg',
+  },
+  {
     id: 'diamondsword',
     name: 'diamondsword.ae',
     url: 'https://diamondsword.ae/',
