@@ -74,6 +74,7 @@ export const projects: Project[] = [
       'Car rental app: browse available cars, view pricing, and book, with efficient local caching for fast, offline-friendly listings.',
     tech: ['Flutter', 'GetX', 'GetStorage', 'HTTP', 'MVC'],
     links: {
+      appStore: 'https://apps.apple.com/us/app/innvii-rent-a-car/id6444955419',
       playStore: 'https://play.google.com/store/apps/details?id=com.Innvii.rent',
     },
     image:
