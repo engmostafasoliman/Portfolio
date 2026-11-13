@@ -1,5 +1,5 @@
 // ── Projects data (single source of truth) ──────────────────────────────────
-// The 6 Flutter apps in display order; the Projects section maps over this array.
+// The Flutter apps in display order; the Projects section maps over this array.
 // A project with no `links` renders a graceful "No public link" state.
 // `image` may be a full URL or a path relative to public/ (resolved at render).
 export type ProjectLink = {
@@ -102,5 +102,16 @@ export const projects: Project[] = [
       playStore: 'https://play.google.com/store/apps/details?id=com.qrapp.qrapp',
     },
     image: 'images/quarak.jpg',
+  },
+  {
+    id: 'tohfiti',
+    title: 'Tohfat Al-Atfal',
+    description:
+      'Offline Tajweed app built on the classical Tuhfat al-Atfal matn, live on Google Play: a lesson → quiz → progress curriculum with audio playback and daily reminders, in a fully RTL Arabic UI. Clean Architecture (domain / data / presentation per feature) with Cubit and get_it, a custom Cubit-driven navigation stack, and a custom test harness.',
+    tech: ['Flutter', 'Cubit', 'Clean Architecture', 'get_it', 'Drift / SQLite', 'shared_preferences', 'audioplayers', 'Local Notifications', 'RTL'],
+    links: {
+      playStore: 'https://play.google.com/store/apps/details?id=com.gitmind.tohfiti',
+    },
+    image: 'images/tohfiti.png',
   },
 ]
